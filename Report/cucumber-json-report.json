@@ -1,0 +1,49 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login functonality of the application",
+        "description": "",
+        "id": "verify-the-login-functionality;login-functonality-of-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "launch the application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Enter the username \"username\" and password \"password\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Verify user name and password",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the login functionality",
+    "description": "",
+    "id": "verify-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "Feature/login.feature"
+  }
+]

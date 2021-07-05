@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="21.452892">
+<testcase classname="Verify the login functionality of Adactin app" name="Verify the login functionality of Adactin app" time="9.220568">
+<system-out><![CDATA[Given User is in adactin login screen.......................................passed
+When Enter the username "Ashlinkmathy" and password "Z58859"................passed
+And User click on login button..............................................passed
+Then Verify user name and password..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Home screen functionality" name="Verify Home screen functionality" time="4.907929">
+<system-out><![CDATA[Given Enter the login details "Ashlinkmathy" and "Z58859"...................passed
+When IUser is on Home screen................................................passed
+Then I validate the home screen dropdowns...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Select hotel page" name="Validate the Select hotel page" time="0.643883">
+<system-out><![CDATA[Given User is in Select hotel page..........................................passed
+When User select the Radio button...........................................passed
+Then User click on continue button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify user can able to book the Hotel" name="Validate the Bookhotel screen" time="6.680512">
+<system-out><![CDATA[Given User is in book hotel screen..........................................passed
+When User select the details and click on book now button...................passed
+Then Verify the booking number generated or not.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
